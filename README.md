@@ -1,6 +1,6 @@
 # jpa02-basperheim1
 
-Repo: https://ucsb-cs156-f24/jpa02-basperheim1
+Repo: https://github.com/ucsb-cs156-f24/jpa02-basperheim1
 
 Deployed at: https://jpa02-basperheim1.dokku-05.cs.ucsb.edu
 
