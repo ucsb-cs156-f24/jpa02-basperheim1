@@ -43,6 +43,21 @@ public class TeamTest {
         assert(t1.equals(team));
         assert(!t2.equals(team));
         assert(!t3.equals(team));
+    }
+
+    @Test
+    public void hash_method_returns_correct_value(){
+
+        // Tests to ensure that two equivalent teams have the same hashCode
+        Team t1 = new Team();
+        t1.setName("foo");
+        t1.addMember("bar");
+        Team t2 = new Team();
+        t2.setName("foo");
+        t2.addMember("bar");
+
+        assertEquals(t1.hashCode(), 130294);
+        assertEquals(t1.hashCode(), t2.hashCode());
 
 
     }
